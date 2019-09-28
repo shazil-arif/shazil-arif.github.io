@@ -1,2 +1,2 @@
 # My Portfolio Site!
-Visit [shazil-arif.github.io](https://shazil-arif.github.io)
+Visit [shazilarif.com](https://shazil-arif.github.io)
