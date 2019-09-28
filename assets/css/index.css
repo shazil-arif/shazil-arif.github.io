@@ -1,0 +1,13 @@
+*{
+    font-family: 'Ubuntu',sans-serif;
+}
+.bottom_space{
+    padding:10px;
+}
+.light_font{
+    color:white!important;
+}
+.jumbotron{
+    text-align: center;
+    margin-top:56px;
+}
