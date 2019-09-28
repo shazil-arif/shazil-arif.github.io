@@ -7,7 +7,34 @@
 .light_font{
     color:white!important;
 }
-.jumbotron{
+#mainJumbotron{
     text-align: center;
     margin-top:56px;
+}
+.icon-left{
+    font-size:40px;
+    margin-left: 20px;
+}
+a{
+    color:black;
+}
+#heading{
+    display: none;
+    font-size:70px;
+}
+#effect{
+    display: none;
+}
+#effectTwo{
+    display: none;
+}
+.sink{
+    background:white;
+}
+.icon-right{
+    margin-right:10px;
+    font-size:60px;
+}
+.center{
+    text-align: center;
 }
