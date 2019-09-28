@@ -1,7 +1,7 @@
 $(document).ready(()=>{
-    $("#heading").fadeIn(2400,()=>{
-        $("#effect").fadeIn(1500,()=>{
-            $("#effectTwo").fadeIn(1500)
+    $("#one").fadeIn(3000,()=>{
+        $("#two").fadeIn(3000,()=>{
+            $("#three").fadeIn(3000)
         });
     });
 });

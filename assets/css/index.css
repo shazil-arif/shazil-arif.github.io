@@ -10,6 +10,7 @@
 #mainJumbotron{
     text-align: center;
     margin-top:56px;
+    margin-bottom:0px;
 }
 .icon-left{
     font-size:40px;
@@ -19,22 +20,33 @@ a{
     color:black;
 }
 #heading{
-    display: none;
-    font-size:70px;
-}
-#effect{
-    display: none;
-}
-#effectTwo{
-    display: none;
+    font-size:80px;
 }
 .sink{
     background:white;
 }
 .icon-right{
     margin-right:10px;
-    font-size:60px;
+    font-size:40px;
 }
 .center{
     text-align: center;
+}
+.hide{
+    display: none;
+}
+.no_margin{
+    margin-top:1px;
+    margin-bottom: 1px;
+    font-weight: 900;
+}
+.subheading{
+    font-size:40px;
+}
+.story{
+    line-height: 2;
+    font-size:20px;
+}
+.stars{
+    font-size:30px;
 }

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="icon" href="./assets/img/sa3.png">
-
     <title>Shazil Arif</title>
 </head>
 <body>
@@ -37,16 +36,34 @@
 
       <div class="jumbotron" id='mainJumbotron'>
         <h1 class="display-4 center" id="heading">Shazil Arif</h1>
-        <p class="lead" id="effect">Here you can learn more about my my story, achievements, interests, fitness life and career goals</p>
-        <p id="effectTwo"><a href="https://github.com/shazil-arif"><i class="fab fa-github icon-left"></i></a> <a href="https://linkedin.com/in/shazil-arif "><i class="fab fa-linkedin icon-left"></i><a> <a href="https://devpost.com/Shazil-arif"><i class="fas fa-code icon-left"></i><a></p>
-        <a class="btn btn-danger btn-lg bottom_space" href="#" role="button">Experience and Projects</a>
+        <p class="lead">Here you can learn more about my story, achievements, interests, fitness life and career goals</p>
+        <p><a href="https://github.com/shazil-arif"><i id="one"class="fab fa-github icon-left hide"></i></a> <a href="https://linkedin.com/in/shazil-arif "><i id="two"class="fab fa-linkedin icon-left hide"></i><a> <a href="https://devpost.com/Shazil-arif"><i id="three" class="fas fa-code icon-left hide"></i><a></p>
+      </div>
+
+
+       <hr class="no_margin">
+
+      <div class="jumbotron" style="background-color: black; color:white;">
+        <h1 class="display-4 center">My Story and Goal</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="story">I was introduced to Computer Science through a course I took in the 11th grade. Coding was something I enjoyed and happened to be good at. 
+                This ended up being my career choice. Over the years I have done everything possible to strengthen my skills from personal projects, hackathons, online courses, self teaching 
+                and a few unpaid but professional experiences. I hope to use all these experiences to land an internship for the summmer of 2020. Other than software, I am a huge fitness enthusiast.
+                I have been lifting since I was 15 years old and even considered competing in a powerlifting contest at one point, but I did not have the time for that alongside University. I've done some heavy lifting you 
+                can check out in the fitness section. Lastly, I would love for you to leave a rating and review at the bottom!
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="container">
           <div class='row'>
-                <div class="jumbotron col-xs-12 col-md-6 sink">
-                        <h1 class="display-4 center">A bit about me</h1>
-                        <p class="lead">I am aspiring to become a web developer. While I enjoy working on all parts of the stack, Backend is definitely what I enjoy most. Here are some languages and tools I have excellent proficiency with</p>
+                <div class="jumbotron col-xs-12 col-md-5">
+                        <h1 class="subheading center"><i class="fas fa-user icon-right"></i>Technical Skills</h1>
+                        <p class="lead">I am a experienced web developer with excellent skills in front end & back end development and automated testing. I have also used DevOps tools such Travis CI to set up CI/CD pipelines. While I enjoy working on all parts of the stack, Backend is definitely what I enjoy most. Here are some languages and tools I have excellent proficiency with</p>
                         <div class="center">
                             <img src="https://img.icons8.com/color/48/000000/firebase.png">
                             <img src="https://img.icons8.com/color/48/000000/nodejs.png">
@@ -57,15 +74,52 @@
                             <img src="https://img.icons8.com/color/48/000000/javascript.png">
                         </div>    
                         <hr class="my-4">
-                        <a class="btn btn-primary btn-lg center" href="./projects.html" role="button">View Work and Projects</a>
+                        <div class="center"><a class="btn btn-danger btn-lg" href="./projects.html" role="button">View Work and Projects</a></div>
                 </div>
-                <div class="jumbotron col-xs-12 col-md-6 sink">
-                        <h1 class="display-4 center"><i class="fas fa-university icon-right"></i>Education</h1>
+
+                <div class="col-md-1"></div>
+
+                <div class="jumbotron col-xs-12 col-md-5">
+                        <h1 class="subheading center"><i class="fas fa-university icon-right"></i>Education</h1>
                         <p class="lead">I study Software Engineering at McMaster University. I am currently in my 2nd year</p>
-                        <li style="font-size:30px"><i class="fas fa-user-graduate icon-right"></i>Dean's Honour List</li>
+                        <li style="font-size:30px"><i class="fas fa-user-graduate icon-right"></i>Deans' Honour List</li>
                         <hr class="my-4">
+                        <h3 class="center">Coursework</h1>
+                        <ul>
+                          <li>Introduction to Programming(Python/A+)</li>
+                          <li>Intro to C Programming</li>
+                          <li>SE 2XA3 (Unix Shell, Bash scripting & Assembly)</li>
+                          <li>Digital Systems (Hardware and Software co-design, Digital Logic & Verilog)</li>
+                        </ul>
+                        <h5 class="center">Some Courses I've taken online</h1>
+                          <ul>
+                            <li>The Web Developer Bootcamp (Udemy)</li>
+                            <li>Complete Guide to Building REST API's (Udemy)</li>
+                            <li>Become a React Developer (Linkedin Learning) - In progress</li>
+                            <li>Reading a lot of documentation</li>
+                          </ul>
                 </div>
           </div>
+      </div>
+
+      <div class="jumbotron center">
+          <h1>Leave a Rating and Feedback<i class="far fa-comment-alt icon-left"></i></h1>
+
+          <p class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+          </p>
+
+          <hr>
+
+          <textarea style="width:50%" name="" id="" class="rounded-lg" cols="20" rows="5" placeholder="Leave a comment. E.g. Your UI skills are awful. This is completely anonymous"></textarea>
+          <hr>
+
+          <button class="btn btn-danger">Submit Feedback</button>
+
       </div>
 
 <script src="https://kit.fontawesome.com/c612fcaa45.js" crossorigin="anonymous"></script>
