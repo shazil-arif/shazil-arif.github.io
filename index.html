@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link light_font" href="#">Work & Projects<span class="sr-only">(current)</span></a>
+              <a class="nav-link light_font" href="#projects">Work & Projects<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link light_font" href="./assets/resume.pdf">Resume</a>
@@ -28,7 +28,7 @@
                 <a class="nav-link light_font" href="#">Fitness</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link light_font" href="#">Contact</a>
+                <a class="nav-link light_font" href="#contact">Contact</a>
               </li>
           </ul>
         </div>
@@ -36,91 +36,235 @@
 
       <div class="jumbotron" id='mainJumbotron'>
         <h1 class="display-4 center" id="heading">Shazil Arif</h1>
+        <p class="lead">Welcome to my portfolio!</p>
         <p class="lead">Here you can learn more about my story, achievements, interests, fitness life and career goals</p>
-        <p><a href="https://github.com/shazil-arif"><i id="one"class="fab fa-github icon-left hide"></i></a> <a href="https://linkedin.com/in/shazil-arif "><i id="two"class="fab fa-linkedin icon-left hide"></i><a> <a href="https://devpost.com/Shazil-arif"><i id="three" class="fas fa-code icon-left hide"></i><a></p>
+      </div>
+    
+      <div id="projects">
+        <h1 class="center" style="margin-top:50px;font-size:60px;">Work & Projects <i class="fas fa-star icon-left" style="font-size:50px;"></i></h1>
+        <div class="jumbotron" style="background:white;">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                      <div class="card mb-3 bg">
+                          <a href="./assets/img/homepage.jpg"><img src="./assets/img/homepage.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body">
+                            <h2 class="card-title center">MSAWebPortal</h2>
+                            <hr>
+      
+                            <p class="card-text">McMaster University's Muslim Student Association (MSA) Mobile App content management system</p>
+                            <p class="card-text"> Built with Node.js, Express, Bootstrap, jQuery and Firebase. CI/CD pipeline with Firebase hosting and Travis CI</p>
+                            <p class="card-text">Other tools: Google Maps API, Google Cloud Storage, Filestack API</p>
+                            <p class="card-text"><strong>The mobile app has over 400 active users and was Trending on the Play Store for a week during September</strong></p>
+                            <p class="card-text">I worked on this independently</p>
+
+      
+                            <a href="https://mcmaster-msa.web.app" style="color:blue"> https://mcmaster-msa.web.app</a>
+                            <hr>
+      
+                            <p class="card-text"><small class="text-muted"><em>July 2019 - August 2019</em></small></p>
+                          </div>
+                        </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                      <div class="card mb-3 ">
+
+                          <a href="./assets/img/announcements.jpg"><img src="./assets/img/announcements.jpg" class="card-img-top" alt="..."></a>
+                            
+                        
+
+                          <div class="card-body">
+                            <h2 class="card-title center">MyGoetz</h2>
+                            <hr>
+      
+                            <p class="card-text">A proprietary android app for real time indoor navigation using Wi-Fi access points. Other features of this app include
+                              pathfinding between any two rooms in the building and announcements.
+                              I built this with my peers in high school</p> 
+                              <p><strong>The app was showcased at DP Innovators Summit 2019 and is awaiting approval for use by over 1000 students</strong><p>
+                                <p>Technologies used: Xamarin Studio, C#, Flutter, Dart, Android Studio, Java
+                                </p>
+                                <a href="./gps.pdf" style="color:rgb(0, 89, 255)">Here's a snippet from the official product documentation on how this works</a>
+
+                                <br>
+      
+                            <p>A tweet from the showcase:
+
+                                <a href="https://twitter.com/GoetzCoder/status/1115977393259405312?s=20" style="color:blue">https://twitter.com/GoetzCoder/status/1115977393259405312?s=20</a>
+
+                            </p>
+                            <hr>
+      
+                            <p class="card-text"><small class="text-muted"><em>June 2018/ February 2019</em></small></p>
+                          </div>
+                        </div>
+                  </div>
+
+                </div>
+
+            
+
+                  <div class="row">
+                    <div class="col-lg-6 ">
+
+                        <div class="card" style="width:100%;">
+                            <img src="./assets/img/airwise.png" class="card-img-top" alt="...">
+                            <div class="card-body" style="color:black">
+                                <h2 class="card-title center">AirWise</h2>
+                                <hr>
+                              <p class="card-text">A real time air quality monitoring system built using an Arduino, sensors and web dashboard</p>
+                              <p class="card-text">We left our sensors running over the course of the hacakthon to gather as much air quality data as possible
+                                Using basic machine learning principles and our own data set, I wrote a program from scatch to predict future air quality coniditions</p>
+                              <p class="card-text"><strong>Placed 2nd overall at Enghack 2019 held at the University of Waterloo</strong></p>
+                              <p class="card-text">Technologies used: HTML, CSS, JavaScript, Bootstrap, Firebase, Arduino</p>
+
+                              
+                              <p>
+                                  <a href="https://github.com/shazil-arif/airwise"><i class="fab fa-github icon"></i></a>
+                                  <a href="https://devpost.com/software/airwise"><img style="padding-bottom: 26px" src="https://img.icons8.com/material/48/000000/devpost.png"></a>
+                              </p>
+
+                            </div>
+                          </div>
+
+                    </div>
+                          <div class="col-lg-6">
+                              <div class="card" style="width:100%;">
+                                  <img src="./assets/img/cloudlock.png" class="card-img-top" alt="...">
+                                  <div class="card-body" style="color:black">
+                                      <h2 class="card-title center">CloudLock</h2>
+                                      <hr>
+                                    <p class="card-text">A home security system that uses facial recognition for authentication via a mobile app and is triggered via NFC</p>
+                                    <p class="card-text"><strong>Built and demoed at Hack the North 2019, Canada's Largest Hackathon</strong></p>
+                                    <p class="card-text">
+                                      Technologies used:
+                                      <li>Mobile App: Flutter, Dart, Microsoft Azure API</li>
+                                      <li>Server-side API: Node.js, Express, Firebase, Twilio API</li> 
+                                    </p>
+
+
+                                    <p>
+                                        <a href="https://github.com/shazil-arif/CloudLock"><i class="fab fa-github icon"></i></a>
+                                        <a href="https://devpost.com/software/cloudlock-z3p4hu"><img style="padding-bottom: 26px" src="https://img.icons8.com/material/48/000000/devpost.png"></a>
+                                    </p>
+
+                                  </div>
+                                </div>
+
+                          </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="col-lg-6" style="margin-top:10px;">
+                            <div class="card" style="width: 100%">
+                                <img src="./assets/img/fit_together.png" class="card-img-top" alt="...">
+                                <div class="card-body" style="color:black">
+                                    <h2 class="card-title center">Fit Together</h2>
+                                    <hr>
+                                  <p class="card-text">A cross platform mobile app that allows users to find excercise partners nearby</p>
+                                  <p class="card-text"><strong>Built at DeltHacks V, my first hackathon and won Best Use of Google Cloud Platform!</strong></p>
+
+
+                                  <p style="text-align:center" >
+                                      <a href="https://github.com/shazil-arif/fit_together"><i class="fab fa-github icon"></i></a>
+                                      <a href="https://devpost.com/software/fit_together"><img style="padding-bottom: 26px" src="https://img.icons8.com/material/48/000000/devpost.png"></a>
+                                  </p>
+
+
+                                </div>
+                            </div>
+                    </div>
+                    
+                        <div class="col-lg-6" style="margin-top:10px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./assets/img/vidly.PNG" class="card-img-top" alt="...">
+                                <div class="card-body" style="color:black">
+                                    <h2 class="card-title center">Vidly</h2>
+                                    <hr>
+                                  <p class="card-text">A REST API for video rentals that uses JWT authentication. I built this alongside a Udemy course</p>
+                                  <p class="card-text">Technolgies used: Node.js, Express, MongoDB, mongoose, Jest (automated testing framework)</p>
+
+                                  <p style="text-align: center"><a href="https://github.com/shazil-arif/Vidly"><i class="fab fa-github icon"></i></a></p>
+
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+
+              </div>
+        </div>
+     
+
       </div>
 
-
-       <hr class="no_margin">
-
-      <div class="jumbotron" style="background-color: black; color:white;">
-        <h1 class="display-4 center">My Story and Goal</h1>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <p class="story">I was introduced to Computer Science through a course I took in the 11th grade. Coding was something I enjoyed and happened to be good at. 
-                This ended up being my career choice. Over the years I have done everything possible to strengthen my skills from personal projects, hackathons, online courses, self teaching 
-                and a few unpaid but professional experiences. I hope to use all these experiences to land an internship for the summmer of 2020. Other than software, I am a huge fitness enthusiast.
-                I have been lifting since I was 15 years old and even considered competing in a powerlifting contest at one point, but I did not have the time for that alongside University. I've done some heavy lifting you 
-                can check out in the fitness section. Lastly, I would love for you to leave a rating and review at the bottom!
-              </p>
+      
+      <div class="jumbotron" style= "color:white;">
+          <h1 class="display-4 center">My Story and Goal</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <p class="story">I was introduced to Computer Science through a course I took in the 11th grade. Coding was something I enjoyed and happened to be good at. 
+                  This ended up being my career choice. Over the years I have done everything possible to strengthen my skills from personal projects, hackathons, online courses, self teaching 
+                  and a few unpaid but professional experiences. I hope to use all these experiences to land an internship for the summmer of 2020. Other than software, I am a huge fitness enthusiast.
+                  I have been lifting since I was 15 years old and even considered competing in a powerlifting contest at one point, but I did not have the time for that alongside University. I've done some heavy lifting you 
+                  can check out in the fitness section. Lastly, I would love for you to leave a rating and review at the bottom!
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="container">
-          <div class='row'>
-                <div class="jumbotron col-xs-12 col-md-5">
-                        <h1 class="subheading center"><i class="fas fa-user icon-right"></i>Technical Skills</h1>
-                        <p class="lead">I am a experienced web developer with excellent skills in front end & back end development and automated testing. I have also used DevOps tools such Travis CI to set up CI/CD pipelines. While I enjoy working on all parts of the stack, Backend is definitely what I enjoy most. Here are some languages and tools I have excellent proficiency with</p>
-                        <div class="center">
-                            <img src="https://img.icons8.com/color/48/000000/firebase.png">
-                            <img src="https://img.icons8.com/color/48/000000/nodejs.png">
-                            <img src="https://img.icons8.com/color/48/000000/python.png">
-                            <img src="https://img.icons8.com/color/48/000000/bootstrap.png">
-                            <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png">
-                            <img src="https://img.icons8.com/color/48/000000/mongodb.png">
-                            <img src="https://img.icons8.com/color/48/000000/javascript.png">
-                        </div>    
-                        <hr class="my-4">
-                        <div class="center"><a class="btn btn-danger btn-lg" href="./projects.html" role="button">View Work and Projects</a></div>
-                </div>
-
-                <div class="col-md-1"></div>
-
-                <div class="jumbotron col-xs-12 col-md-5">
-                        <h1 class="subheading center"><i class="fas fa-university icon-right"></i>Education</h1>
-                        <p class="lead">I study Software Engineering at McMaster University. I am currently in my 2nd year</p>
-                        <li style="font-size:30px"><i class="fas fa-user-graduate icon-right"></i>Deans' Honour List</li>
-                        <hr class="my-4">
-                        <h3 class="center">Coursework</h1>
-                        <ul>
-                          <li>Introduction to Programming(Python/A+)</li>
-                          <li>Intro to C Programming</li>
-                          <li>SE 2XA3 (Unix Shell, Bash scripting & Assembly)</li>
-                          <li>Digital Systems (Hardware and Software co-design, Digital Logic & Verilog)</li>
-                        </ul>
-                        <h5 class="center">Some Courses I've taken online</h1>
+        <div class="container">
+            <div class='row'>
+                  <div class="jumbotron col-xs-12 col-md-5" style="background: rgb(255, 80, 80)">
+                          <h1 class="subheading center"><i class="fas fa-user icon-right"></i>Technical Skills</h1>
+                          <p class="lead">I am a experienced web developer with excellent skills in front end & back end development and automated testing. I have also used DevOps tools such Travis CI to set up CI/CD pipelines. While I enjoy working on all parts of the stack, Backend is definitely what I enjoy most. Here are some languages and tools I have excellent proficiency with</p>
+                          <div class="center">
+                              <img src="https://img.icons8.com/color/48/000000/firebase.png">
+                              <img src="https://img.icons8.com/color/48/000000/nodejs.png">
+                              <img src="https://img.icons8.com/color/48/000000/python.png">
+                              <img src="https://img.icons8.com/color/48/000000/bootstrap.png">
+                              <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png">
+                              <img src="https://img.icons8.com/color/48/000000/mongodb.png">
+                              <img src="https://img.icons8.com/color/48/000000/javascript.png">
+                          </div>    
+                          <hr class="my-4">
+                  </div>
+  
+                  <div class="col-md-1"></div>
+  
+                  <div class="jumbotron col-xs-12 col-md-5" style="background: rgb(255, 80, 80)">
+                          <h1 class="subheading center"><i class="fas fa-university icon-right"></i>Education</h1>
+                          <p class="lead">I study Software Engineering at McMaster University. I am currently in my 2nd year</p>
+                          <li style="font-size:30px"><i class="fas fa-user-graduate icon-right"></i>Deans' Honour List</li>
+                          <hr class="my-4">
+                          <h3 class="center">Coursework</h1>
                           <ul>
-                            <li>The Web Developer Bootcamp (Udemy)</li>
-                            <li>Complete Guide to Building REST API's (Udemy)</li>
-                            <li>Become a React Developer (Linkedin Learning) - In progress</li>
-                            <li>Read more documentation than books</li>
+                            <li>Introduction to Programming(Python/A+)</li>
+                            <li>Intro to C Programming</li>
+                            <li>SE 2XA3 (Unix Shell, Bash scripting & Assembly)</li>
+                            <li>Digital Systems (Hardware and Software co-design, Digital Logic & Verilog)</li>
                           </ul>
-                </div>
-          </div>
+                          <h5 class="center">Some Courses I've taken online</h1>
+                            <ul>
+                              <li>The Web Developer Bootcamp (Udemy)</li>
+                              <li>Complete Guide to Building REST API's (Udemy)</li>
+                              <li>Become a React Developer (Linkedin Learning) - In progress</li>
+                              <li>Read more documentation than books</li>
+                            </ul>
+                  </div>
+            </div>
+        </div>
+
+      <div id="contact" class=" jumbotron center">
+          <h1 style="font-size:65px;">Contact Me</h1>
+          <hr>
+          <a href="https://github.com/shazil-arif"><i class="fab fa-github icon-left"></i></a>
+          <a href="https://linkedin.com/in/shazil-arif "><i class="fab fa-linkedin icon-left"></i><a> 
+          <a href="https://devpost.com/Shazil-arif"><img class="icon-left" style="padding-bottom: 20px" src="https://img.icons8.com/material/48/000000/devpost.png"><a>
+          <p style="font-size: 30px"><strong>shazilarif94@gmail.com</strong></p>
       </div>
 
-      <div class="jumbotron center">
-          <h1>Leave a Rating and Feedback<i class="far fa-comment-alt icon-left"></i></h1>
-
-          <p class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-          </p>
-
-          <hr>
-
-          <textarea style="width:50%" name="" id="" class="rounded-lg" cols="20" rows="5" placeholder="Leave a comment. E.g. Your UI skills are awful. This is completely anonymous"></textarea>
-          <hr>
-
-          <button class="btn btn-danger">Submit Feedback</button>
-
-      </div>
 
 <script src="https://kit.fontawesome.com/c612fcaa45.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

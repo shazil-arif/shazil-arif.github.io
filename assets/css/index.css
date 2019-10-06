@@ -11,6 +11,10 @@
     text-align: center;
     margin-top:56px;
     margin-bottom:0px;
+    color:white;
+}
+.jumbotron{
+    background:rgb(102, 153, 255);
 }
 .icon-left{
     font-size:40px;
@@ -49,4 +53,10 @@ a{
 }
 .stars{
     font-size:30px;
+}
+.card-body{
+    font-size: 20px;
+}
+.icon{
+    font-size:50px;
 }
